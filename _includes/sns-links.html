@@ -98,4 +98,13 @@
     </a>
   </li>
   {% endif %}
+  {% if site.itch_username %}
+  <li>
+    <a target="_blank" href="https://{{ site.itch_username }}.itch.io/">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-itch fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
 </ul>
