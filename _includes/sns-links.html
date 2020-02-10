@@ -60,7 +60,7 @@
   {% endif %}
   {% if site.github_username %}
   <li>
-    <a target="_blank" href="https://github.com/{{ site.github_username }}">
+    <a target="_blank" href="https://github.com/{{ site.github_username }}" title="GitHub">
       <span class="fa-stack fa-lg">
         <i class="fa fa-circle fa-stack-2x"></i>
         <i class="fa fa-github fa-stack-1x fa-inverse"></i>
@@ -70,7 +70,7 @@
   {% endif %}
   {% if site.linkedin_username %}
   <li>
-    <a target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
+    <a target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn">
       <span class="fa-stack fa-lg">
         <i class="fa fa-circle fa-stack-2x"></i>
         <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
@@ -80,7 +80,7 @@
   {% endif %}
   {% if site.soundcloud_username %}
   <li>
-    <a target="_blank" href="https://soundcloud.com/{{ site.soundcloud_username }}">
+    <a target="_blank" href="https://soundcloud.com/{{ site.soundcloud_username }}" title="Soundcloud">
       <span class="fa-stack fa-lg">
         <i class="fa fa-circle fa-stack-2x"></i>
         <i class="fa fa-soundcloud fa-stack-1x fa-inverse"></i>
@@ -90,7 +90,7 @@
   {% endif %}
   {% if site.youtube_username %}
   <li>
-    <a target="_blank" href="https://youtube.com/channel/{{ site.youtube_username }}">
+    <a target="_blank" href="https://youtube.com/channel/{{ site.youtube_username }}" title="YouTube">
       <span class="fa-stack fa-lg">
         <i class="fa fa-circle fa-stack-2x"></i>
         <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
@@ -100,10 +100,20 @@
   {% endif %}
   {% if site.itch_username %}
   <li>
-    <a target="_blank" href="https://{{ site.itch_username }}.itch.io">
+    <a target="_blank" href="https://{{ site.itch_username }}.itch.io" title="Itch.io">
       <span class="fa-stack fa-lg">
         <i class="fa fa-circle fa-stack-2x"></i>
         <i class="fa fa-gamepad fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  {% endif %}
+  {% if site.email_username %}
+  <li>
+    <a target="_blank" href="mailto:vladyadubrovsky@gmail.com" title="Email me">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
       </span>
     </a>
   </li>
