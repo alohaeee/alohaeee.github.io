@@ -65,7 +65,10 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: hux
+#disqus_username: hux
+
+#Commento settings
+commento_active: true
 
 # Netease settings
 netease_comment: false
