@@ -197,7 +197,7 @@
 <!-- Handle Language Change -->
 <script type="text/javascript">
     // get nodes
-    var $zh = document.querySelector(".zh");
+    var $ru = document.querySelector(".ru");
     var $en = document.querySelector(".en");
     var $select = document.querySelector("select");
 
@@ -218,13 +218,13 @@
             $select.selectedIndex = 1;
             $en.style.display = "block";
             $en.classList.add("active");
-            $zh.style.display = "none";
-            $zh.classList.remove("active");
+            $ru.style.display = "none";
+            $ru.classList.remove("active");
         // default to zh-cn
         }else{
             $select.selectedIndex = 0;
-            $zh.style.display = "block";
-            $zh.classList.add("active");
+            $ru.style.display = "block";
+            $ru.classList.add("active");
             $en.style.display = "none";
             $en.classList.remove("active");
         }
@@ -235,9 +235,9 @@
     // handle select change
     function onLanChange(index){
         if(index == 0){
-            lang = "zh"
-        }else{
             lang = "en"
+        }else{
+            lang = "ru"
         }
         setLang(lang)
     }
