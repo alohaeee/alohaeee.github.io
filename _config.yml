@@ -1,6 +1,6 @@
 # Site settings
 title: alohaeee blog
-SEOTitle: alohaeee blog
+SEOTitle: alohaeee blogg
 header-img: img/home-bg.jpg
 email: vladyadubrovsky@gmail.com
 description: "games, music and arts"
@@ -18,8 +18,8 @@ RSS: false
 github_username:    alohaeee
 youtube_username: UCj-Qq79YSslX2KTs4vxL7-w
 soundcloud_username: vladislav-dubrovsky
-itch_username: alohaeee
-mail_username: vladyadubrovsky@gmail.com
+#itch_username: alohaeee
+mail_sns: true
 #weibo_username:     
 #zhihu_username:    
 #twitter_username:   
