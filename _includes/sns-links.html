@@ -108,9 +108,9 @@
     </a>
   </li>
   {% endif %}
-  {% if site.email_username %}
+  {% if site.mail_sns %}
   <li>
-    <a target="_blank" href="mailto:{{ site.mail_username }}" title="Email me">
+    <a target="_blank" href="mailto:{{ site.email }}" title="Email me">
       <span class="fa-stack fa-lg">
         <i class="fa fa-circle fa-stack-2x"></i>
         <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
@@ -118,4 +118,15 @@
     </a>
   </li>
   {% endif %}
+  {% if site.habr_username %}
+  <li>
+    <a target="_blank" href="https://habr.com/en/users/{{ habr_username }}" title="Habr">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-header fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  {% endif %}
+  
 </ul>
