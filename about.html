@@ -8,17 +8,19 @@ multilingual: true
 
 {% include multilingual-sel.html %}
 
+<!-- English Version -->
+<div class="en post-container">
+    {% capture about_en %}{% include about/en.md %}{% endcapture %}
+    {{ about_en | markdownify }}
+</div>
+
 <!-- Russian Version -->
 <div class="ru post-container">
     {% capture about_ru %}{% include about/ru.md %}{% endcapture %}
     {{ about_ru | markdownify }}
 </div>
 
-<!-- English Version -->
-<div class="en post-container">
-    {% capture about_en %}{% include about/en.md %}{% endcapture %}
-    {{ about_en | markdownify }}
-</div>
+
 
 
 
