@@ -14,14 +14,16 @@ future: true
 
 # SNS settings
 RSS: false
-#weibo_username:     huxpro
-#zhihu_username:     huxpro
+ 
 github_username:    alohaeee
 youtube_username: UCj-Qq79YSslX2KTs4vxL7-w
 soundcloud_username: vladislav-dubrovsky
 itch_username: alohaeee
+mail_username: vladyadubrovsky@gmail.com
+#weibo_username:     
+#zhihu_username:    
 #twitter_username:   
-#facebook_username:  huxpro
+#facebook_username:  
 #linkedin_username:  firstname-lastname-idxxxx
 
 
