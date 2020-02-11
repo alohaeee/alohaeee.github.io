@@ -220,7 +220,7 @@
             $en.classList.add("active");
             $ru.style.display = "none";
             $ru.classList.remove("active");
-        // ru
+        // default to zh-cn
         }else{
             $select.selectedIndex = 1;
             $ru.style.display = "block";
@@ -235,9 +235,9 @@
     // handle select change
     function onLanChange(index){
         if(index == 0){
-            lang = "ru"
-        }else{
             lang = "en"
+        }else{
+            lang = "ru"
         }
         setLang(lang)
     }
