@@ -1,6 +1,7 @@
 
 Hi! I'm Vladislav Dubrovsky, aka  __alohaeee__. 
-Developer with ~2 years of experience. Familiar with: C++(14,17), Qt, C#(Unity-Scripting), JS/TS, WinAPI(a little). I publish my projects on [GitHub](https://github.com/alohaeee).
+Developer with ~2 years of experience. 
+Familiar with: C++(14,17), Qt, C#(Unity-Scripting), JS/TS, WinAPI(a little). I publish my projects on [GitHub](https://github.com/alohaeee) if possible.
 
 I make games, sometimes write music, even less often I draw in pixel-art style.
 
