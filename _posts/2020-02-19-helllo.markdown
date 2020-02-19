@@ -16,4 +16,4 @@ Hi!
 
 I never did this before. But there comes a time to make first post.
 
-P.S. Thanks to [@Huxpro](https://github.com/Huxpro/huxpro.github.io) for amazing jekyll theme and [Commento](https://commento.io/) for free commenting platform.
+P.S. Thanks to [@Huxpro](https://github.com/Huxpro/) for amazing [jekyll theme](https://github.com/Huxpro/huxpro.github.io) and [Commento](https://commento.io/) for free commenting platform.
