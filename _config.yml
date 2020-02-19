@@ -88,8 +88,8 @@ netease_comment: false
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Student"
-sidebar-avatar: /img/avatar.jpg     # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "You are filled with determination."
+sidebar-avatar: /img/avatar.png     # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
