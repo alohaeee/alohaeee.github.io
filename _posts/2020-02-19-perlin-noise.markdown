@@ -21,7 +21,7 @@ Thank a lot to [Coding train challenges](https://thecodingtrain.com/) made by in
 Often random generator produces numbers that don't depend on each other. And it's quite useful in many cases. But let's challenge us to procedulrally generate some terrain, for example like in [Terraria](https://en.wikipedia.org/wiki/Terraria) or [Starbound](https://en.wikipedia.org/wiki/Starbound). 
 The main idea is to use random number as height of our ground. Unfortunately, straightforward implementation does not solve the problem:
 
-<img class="shadow" src="/img/in-post/random.png" width="640">
+<img class="shadow" src="/img/in-post/random.png" width="420">
 
 
 Of course, we can play a little bit more with this technique, making rules, like how often we must generate new numbers and etc. But this way only makes everything more complicated.
