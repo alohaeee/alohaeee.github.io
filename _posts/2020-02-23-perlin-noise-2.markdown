@@ -12,7 +12,7 @@ tags:
     - Animation
 ---
 
-__[Live version](https://alohaeee.github.io/code/lava-lamp-noise.html)__
+#_[Live version](https://alohaeee.github.io/code/lava-lamp-noise.html)_
 
 ### P5 animations
 One more post to inspire you to play with p5 and Perlin noise. Now i'm gonna present you lava-lamp-like effect that i've discovered.
