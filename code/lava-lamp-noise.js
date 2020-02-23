@@ -17,6 +17,7 @@ var xoffSlider;
 var yoffSlider;
 var radiusSlider;
 var colorSlider;
+var gradientCheck;
 
 function setup()
 {
@@ -52,6 +53,8 @@ function setup()
     createP("Color Speed Change").position(width + stepSlider.width,510);
     colorSlider.position(width + stepSlider.width,500);
 
+
+    gradientCheck=createCheckbox("Gradient", 1).position(width + stepSlider.width,610);
     
     
 
@@ -75,16 +78,16 @@ function draw()
     colorSpeedChange = colorSlider.value();
     
    
+    
     for(let x = 0; x < width; x++)
     {    
         let y = noise(noiseOff+jump)*height * 2 - height/2;
-        //stroke(25);
-        //noStroke();
+
         let inter = map(x, 0, width, 0, 1);
        
         let c= lerp(0, 255, inter);
         
-        fill((c+sphereColor)%255,255,255);
+        fill((gradientCheck.checked() ? (c+sphereColor)%255: sphereColor),255,255);
         let n = noise(xoff,yoff);
         ellipse(x, y, radius*n,radius*n);
         jump+=step; 
