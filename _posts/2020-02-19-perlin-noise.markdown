@@ -21,15 +21,14 @@ Thank a lot to [Coding train challenges](https://thecodingtrain.com/) made by in
 Often random generator produces numbers that don't depend on each other. And it's quite useful in many cases. But let's challenge us to procedulrally generate some terrain, for example like in [Terraria](https://en.wikipedia.org/wiki/Terraria) or [Starbound](https://en.wikipedia.org/wiki/Starbound). 
 The main idea is to use random number as height of our ground. Unfortunately, straightforward implementation does not solve the problem:
 
-<img src="../img/in-post/random.png" width=400 height=400></img>
+<img src="img/in-post/random.png" width=400 height=400></img>
 
 Of course, we can play a little bit more with this technique, making rules, like how often we must generate new numbers and etc. But this way only makes everything more complicated.
 
 
-To get more natural result you can use gradient noise instead of pure noise. Perlin noise generates “smooth” sequence of random numbers. Here you can see Perlin noise changing values over time.
+To get more natural result you can use gradient noise instead of pure noise. In p5js this functions simply calls [noise()](https://p5js.org/reference/#/p5/noise). Perlin noise generates “smooth” sequence of random numbers. Here you can see Perlin noise changing values over time.
 <iframe src="https://player.vimeo.com/video/393112363" width="640" height="640" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-<br>
 <br>
 
 As you can see, we've got almost what we needed. You also can adjust noise with other math functions or even other noises.
