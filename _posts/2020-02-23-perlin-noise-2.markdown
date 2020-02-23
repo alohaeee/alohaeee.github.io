@@ -12,6 +12,8 @@ tags:
     - Animation
 ---
 
+__[Live version](../code/lava-lamp-noise.html)__
+
 ### P5 animations
 One more post to inspire you to play with p5 and Perlin noise. Now i'm gonna present you lava-lamp-like effect that i've discovered.
 
@@ -31,9 +33,9 @@ And in this footage particles behave like noise does.
 
 Here is list of amazing animations that I've collected for you:
 
-- https://wangyasai.github.io/Perlin-Noise/
-- https://davenewt.github.io/p5-perlin-noise/
-- https://editor.p5js.org/full/vDcIAbfg7
-- https://www.openprocessing.org/sketch/223624
-- https://wangyasai.github.io/PerlinNoisePainter/
+- [](https://wangyasai.github.io/Perlin-Noise/)
+- [](https://davenewt.github.io/p5-perlin-noise/)
+- [](https://editor.p5js.org/full/vDcIAbfg7)
+- [](https://www.openprocessing.org/sketch/223624)
+- [](https://wangyasai.github.io/PerlinNoisePainter/)
 
