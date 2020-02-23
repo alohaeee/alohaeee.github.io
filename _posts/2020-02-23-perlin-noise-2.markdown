@@ -33,9 +33,9 @@ And in this footage particles behave like noise does.
 
 Here is list of amazing animations that I've collected for you:
 
-- [](https://wangyasai.github.io/Perlin-Noise/)
-- [](https://davenewt.github.io/p5-perlin-noise/)
-- [](https://editor.p5js.org/full/vDcIAbfg7)
-- [](https://www.openprocessing.org/sketch/223624)
-- [](https://wangyasai.github.io/PerlinNoisePainter/)
+- [wangyasai.github.io/Perlin-Noise/](https://wangyasai.github.io/Perlin-Noise/)
+- [davenewt.github.io/p5-perlin-noise/](https://davenewt.github.io/p5-perlin-noise/)
+- [editor.p5js.org/full/vDcIAbfg7](https://editor.p5js.org/full/vDcIAbfg7)
+- [www.openprocessing.org/sketch/223624](https://www.openprocessing.org/sketch/223624)
+- [wangyasai.github.io/PerlinNoisePainter/](https://wangyasai.github.io/PerlinNoisePainter/)
 
