@@ -14,7 +14,7 @@ tags:
 
 <h1>
 <p>
-<a href="https://alohaeee.github.io/code/lava-lamp-noise.html">Live version</a>
+<a href="https://alohaeee.github.io/code/lava-lamp-noise.html"><i>Live version</i></a>
 </p>
 </h1>
 
