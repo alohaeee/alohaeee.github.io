@@ -37,6 +37,7 @@ And in this footage particles behave like noise does.
 
 Here is list of amazing animations that I've collected for you:
 
+- [wangyasai.github.io/Noise-flow-field-painter/](https://wangyasai.github.io/Noise-flow-field-painter/)
 - [wangyasai.github.io/Perlin-Noise/](https://wangyasai.github.io/Perlin-Noise/)
 - [davenewt.github.io/p5-perlin-noise/](https://davenewt.github.io/p5-perlin-noise/)
 - [editor.p5js.org/full/vDcIAbfg7](https://editor.p5js.org/full/vDcIAbfg7)
